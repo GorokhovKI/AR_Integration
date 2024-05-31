@@ -13,23 +13,23 @@ public class ScalerEnabler : MonoBehaviour
     }
     void OnEnable()
     {
-        FindObjectOfType<ModelSpawner>().OnModelSpawned += OnModelSpawned;
-        FindObjectOfType<ModelSpawner>().OnModelDeleted += OnModelDeleted;
+        FindObjectOfType<PlaneDetection>().OnModelSpawned += OnModelSpawned;
+        //FindObjectOfType<PlaneDetection>().OnModelDeleted += OnModelDeleted;
     }
 
     void OnDisable()
     {
-        FindObjectOfType<ModelSpawner>().OnModelSpawned -= OnModelSpawned;
-        FindObjectOfType<ModelSpawner>().OnModelDeleted -= OnModelDeleted;
+        FindObjectOfType<PlaneDetection>().OnModelSpawned -= OnModelSpawned;
+        //FindObjectOfType<PlaneDetection>().OnModelDeleted -= OnModelDeleted;
     }
 
     private void OnModelSpawned(GameObject model)
     {
-        sizeSlider.gameObject.SetActive(true); 
+        sizeSlider.gameObject.SetActive(true);
     }
 
-    private void OnModelDeleted()
-    {
-        sizeSlider.gameObject.SetActive(false); 
-    }
+    //private void OnModelDeleted()
+    //{
+    //    sizeSlider.gameObject.SetActive(false);
+    //}
 }
