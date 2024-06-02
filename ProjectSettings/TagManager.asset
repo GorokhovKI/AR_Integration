@@ -6,11 +6,12 @@ TagManager:
   tags:
   - Selected
   - UnSelected
+  - Wall
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Walls
   - Water
   - UI
   - 
