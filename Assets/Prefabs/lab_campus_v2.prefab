@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8404718817144435873}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 1700151555199764535}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -421,7 +421,7 @@ GameObject:
   - component: {fileID: 5022692304459766613}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1329,7 +1329,7 @@ GameObject:
   - component: {fileID: 2036481298958819777}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1529,7 +1529,7 @@ GameObject:
   - component: {fileID: 888157498919663329}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6056,7 +6056,7 @@ GameObject:
   - component: {fileID: 3498050994869931418}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10416,7 +10416,7 @@ GameObject:
   - component: {fileID: 5613864269026616214}
   m_Layer: 0
   m_Name: CorridorTag
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

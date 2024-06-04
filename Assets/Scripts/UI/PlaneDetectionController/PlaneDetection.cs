@@ -141,32 +141,7 @@ public class PlaneDetection : MonoBehaviour
                     SelectedObject.transform.position = hits[0].pose.position;
                 }
             }
-            //Rotate Objec by 2 fingers
-            //if (Input.touchCount == 2)
-            //{
-            //    Touch touch1 = Input.touches[0];
-            //    Touch touch2 = Input.touches[1];
 
-            //    if (touch1.phase == TouchPhase.Moved || touch2.phase == TouchPhase.Moved)
-            //    {
-            //        float DistanceBetweenTouches = Vector2.Distance(touch1.position, touch2.position);
-            //        float prevDistanceBetweenTouches = Vector2.Distance(touch1.position - touch1.deltaPosition, touch2.position - touch2.deltaPosition);
-            //        float Delta = DistanceBetweenTouches - prevDistanceBetweenTouches;
-
-            //        if (Mathf.Abs(Delta) > 0)
-            //        {
-            //            Delta *= 0.1f;
-            //        }
-            //        else
-            //        {
-            //            DistanceBetweenTouches = Delta = 0;
-            //        }
-            //        YRotation = Quaternion.Euler(0f, -touch1.deltaPosition.x * Delta, 0f);
-            //        SelectedObject.transform.rotation = YRotation * SelectedObject.transform.rotation;
-            //    }
-
-            //}
-            // Deselect object
             if (touch.phase == TouchPhase.Ended)
             {
                 if (SelectedObject.CompareTag("Selected"))
